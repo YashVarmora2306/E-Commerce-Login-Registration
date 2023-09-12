@@ -2,7 +2,6 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { seller_model } from "../../models/seller/model.js";
 
-
 const secretKey = 'secret_key';
 
 export const seller_login = (req, res) => {
